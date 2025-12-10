@@ -16,8 +16,6 @@ body {
   background-color: rgb(25, 66, 87);
 }
 
-/* Contenedores */
-
 .contenedor-principal {
   width: 50vw;
   max-width: 600px;
@@ -29,8 +27,6 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
 }
-
-/* Colores RGB*/
 
 .color {
   padding: 10px;
@@ -67,20 +63,18 @@ p {
 }
 
 @media (max-width: 500px) {
+  .color {
+    padding: 8px;
+    margin: 5px;
+    font-size: 1.5em;
+  }
 
-	.color {
-  padding: 8px;
-  margin: 5px;
-  font-size: 1.5em;
-}
+  .titulo {
+    font-size: small;
+  }
 
-.titulo {
-	font-size: small
-}
-
-label,
-p {
-  margin: 8px;
-}
-
+  label,
+  p {
+    margin: 8px;
+  }
 }
